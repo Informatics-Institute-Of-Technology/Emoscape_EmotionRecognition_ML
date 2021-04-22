@@ -14,7 +14,6 @@ from keras.layers import Dense, Dropout, Activation, Flatten, BatchNormalization
 from keras.layers import Conv2D, MaxPooling2D
 import os
 from keras.optimizers import RMSprop, SGD, Adam
-from keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
 
 #!unzip /content/drive/MyDrive/Dataset/train.zip
 #!unzip /content/drive/MyDrive/Dataset/validation.zip
